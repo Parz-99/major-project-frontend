@@ -57,8 +57,10 @@
 }
 
 .tagline {
-    margin-top: -20px;
-    font-size: 0.8rem;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 0.9rem;
     color: #5e9106;
 }
 

@@ -40,15 +40,25 @@ function Toolbar(props){
                     <div className={classes["container"]}>
                         <input type="checkbox" name="" className={classes["check"]} />
                         
-                        <div className={classes["logo-container"]}>
+                        {/* <div className={classes["logo-container"]}> */}
                             {/* <img src={Logo} className={classes["logoImage"]}></img> */}
-                            <h3 className={classes["logo"]}>Kisan-Jamm</h3>
-                            <h1 className={classes["tagline"]}>easy market for farmers</h1>
-                        </div>
+                            {/* <h3 className={classes["logo"]}>Kisan-Jamm</h3> */}
+                            {/* <h1 className={classes["tagline"]}>easy market for farmers</h1> */}
+                        {/* </div> */}
 
                         <div className={classes["nav-btn"]}>
                             <div className={classes["nav-links"]}>
+                                
                                 <ul className={classes["ul"]} onClick={hamburgerHandler}>
+                                    <li className={classes["nav-link"]}>
+                                        
+                                    </li>
+                                    <li className={classes["nav-link"]}>
+                                        <a href="/" className={classes['a']}><h2>Kisan-Jamm</h2></a>
+                                         {/* <img src={Logo} className={classes["logoImage"]}></img> */}
+                            {/* <h3 className={classes["logo"]}>Kisan-Jamm</h3> */}
+                            <p className={classes["tagline"]}>easy market for farmers</p>
+                                    </li>
                                     <li className={classes["nav-link"]}>
                                         <a href="/" className={classes['a']}>Home</a>
                                     </li>

@@ -32,7 +32,7 @@ const Footer = () => {
 			<div className={classes["footer-right"]}>
 				<p className={classes["footer-company-about"]}>
 					<span>About the company</span>
-                    It is an e-commerce website to provide a direct communication between the farmers and the buyers by removing the 3rd parties
+                    It is an portal to provide a direct communication between the farmers and the buyers by removing the 3rd parties
 				</p>
 				<div className={classes["footer-icons"]}>
 					<a href="#"><i class="fa fa-facebook"></i></a>
