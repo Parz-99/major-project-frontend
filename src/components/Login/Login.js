@@ -56,7 +56,7 @@ const Login = () => {
       })
       console.log("state",state);
       Cookies.set('token', data, { expires: 1 })
-      history.push('/profile')
+      history.push('/')
     }).catch(e => {
       swal("Please check your internet connection")
     })
