@@ -15,15 +15,8 @@ const About = () => {
               contact and locate the farmer by sending a simple friend through our app kisan - Jamm and buy the goods directly.
           </p>
       </div>
-      <div className={classes["format"]}>
-          <p style={{fontSize:'20px'}}>Farmers need to send the text message to 9999999999 in the following format: </p><br/>
-          <ul>
-              <li><b>Register</b> : (keyword number firstName secondName) keyword is register</li>
-              <li><b>Add Crop</b> : (keyword number crop weight price /description/ /address/ pincode) keyword is addcrop</li>
-              <li><b>Update Crop</b> : (keyword number cropId weight weight price price description /description/ address /address/ pincode /pincode/) keyword is updatecrop. User need to pass only the arguments that he/she want to update</li>
-              <li><b>Delete Crop</b> : (keyword number cropId) keyword is delete crop</li>
-          </ul>
-      </div>
+     
+      
     </>)
 }
 
