@@ -19,7 +19,7 @@ const Login = () => {
   }
 
   function submitForm() {
-    history.push('/profile')
+    history.push('/')
   }
 
   const responseSuccessGoogle = (response) => {

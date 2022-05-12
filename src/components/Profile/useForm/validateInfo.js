@@ -14,7 +14,7 @@ export default function validateInfo(values){
         errors.pincode = "Enter a valid Pincode"
     }
 
-    if(!values.address.trim()){
+    if(!values.address?.trim()){
         errors.address = "Enter a Valid address"
     }
 

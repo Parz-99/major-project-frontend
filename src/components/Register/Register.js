@@ -50,7 +50,7 @@ const Register = () => {
           }
         }
       })
-      history.push('/profile')
+      history.push('/')
     }).catch(e => {
       swal("Please check your internet connection")
     })
