@@ -51,13 +51,11 @@ function Toolbar(props){
                                 
                                 <ul className={classes["ul"]} onClick={hamburgerHandler}>
                                     <li className={classes["nav-link"]}>
-
+                                        <img src="logo512.png" alt="Logo" width="50" height="60"></img>
                                     </li>
                                     <li className={classes["nav-link"]}>
                                         <a href="/" className={classes['a']}><h2>Kisan-Jamm</h2></a>
-                                         {/* <img src={Logo} className={classes["logoImage"]}></img> */}
-                            {/* <h3 className={classes["logo"]}>Kisan-Jamm</h3> */}
-                            <p className={classes["tagline"]}>easy market for farmers</p>
+                                        <p className={classes["tagline"]}>easy market for farmers</p>
                                     </li>
                                     <li className={classes["nav-link"]}>
                                         <a href="/" className={classes['a']}>Home</a>
