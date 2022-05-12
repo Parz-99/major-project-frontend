@@ -51,7 +51,7 @@ function Toolbar(props){
                                 
                                 <ul className={classes["ul"]} onClick={hamburgerHandler}>
                                     <li className={classes["nav-link"]}>
-                                        
+
                                     </li>
                                     <li className={classes["nav-link"]}>
                                         <a href="/" className={classes['a']}><h2>Kisan-Jamm</h2></a>
@@ -84,7 +84,7 @@ function Toolbar(props){
                                         <a className={classes["a"]} href="/products">Products</a>
                                     </li>
                                     <li className={classes["nav-link"]} >
-                                        <a className={classes["a"]} href="/news">News</a>
+                                        <a className={classes["a"]} href="/news">Market Rates</a>
                                     </li>
                                     <li className={classes["nav-link"]} >
                                         <a className={classes["a"]} href="/about">About Us</a>
