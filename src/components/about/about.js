@@ -9,8 +9,10 @@ const About = () => {
           <p>To provide a direct communication between farmer and a buyer to sell their crop</p>
       </div>
       <div className={classes["intro"]}>
-          <p>E-cofF (e-commerce for farmers) is an e-commerce website for farmers to sell their crops directly to the buyers. But most of the farmers are not able to use a website due to the network issues in their area.
-             But in this platform farmers can login, register, add crop, update crop, delete crop etc. either by using this website or buy sending a simple text message to the company number which will update everything in the website.
+          <p>Kisan - Jamm is an portal for farmers to sell their crops directly to the buyers.
+             In this platform farmers can login, register, add crop, update crop, delete crop etc. 
+             by using this website .And most of the villages are now filled with 4G devices where we can get into
+              contact and locate the farmer by sending a simple friend through our app kisan - Jamm and buy the goods directly.
           </p>
       </div>
       <div className={classes["format"]}>
