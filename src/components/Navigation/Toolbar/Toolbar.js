@@ -91,8 +91,7 @@ function Toolbar(props){
                                         <a className={classes["a"]} href="/contact">Contact Us</a>
                                     </li>
                                       <li className={classes["nav-link"]} >
-                                          <a className={classes["a"]} href="https://drive.google.com/
-                                          file/d/1rjgPWZyS6S3qSUaIkgQQmXw9fia9J08R/view">Kisan-Jamm App</a>
+                                          <a className={classes["a"]} href="https://drive.google.com/file/d/1rjgPWZyS6S3qSUaIkgQQmXw9fia9J08R/view">Kisan-Jamm App</a>
                                       </li>   
                                     {!(state.isAuthenticated) ? (<>
                                       <li className={classes["nav-link"]} >
