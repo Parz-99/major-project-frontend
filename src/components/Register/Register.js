@@ -12,7 +12,7 @@ const Register = () => {
   let history = useHistory();
   const {dispatch} = React.useContext(AuthContext);
   function submitForm() {
-    history.push('/profile');
+    history.push('/');
   }
 
   const [userType,setUserType] = useState(userTypes.SELECT)
